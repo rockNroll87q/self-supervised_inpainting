@@ -86,7 +86,7 @@ python enc_dec_activExtract.py \
 
 ## Citation
 
-If you find this code useful in your research, please, consider citing the original work and our paper:
+If you find this code useful in your research, please consider citing the original work and our paper:
 
 ```
 @InProceedings{Isola_2017_CVPR,
