@@ -43,6 +43,11 @@ Layer shapes:
 </kbd>
 </p>
 
+## Models
+
+* grayscale trained model: [link](https://cloud.psy.gla.ac.uk/index.php/s/QNqUBvLDFwWOao7)
+* RGB trained model: [link](https://cloud.psy.gla.ac.uk/index.php/s/ou5cmJ20GyqHcFm)
+
 
 ## Requirements
 
