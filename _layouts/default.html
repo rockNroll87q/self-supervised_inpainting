@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+	  
+	  
+	  
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+	<table align=center width=800px>
+	  <tr>
+	<td align=center width=150px>
+			<center>
+				<span style="font-size:18px"><a href="https://www.michelesvanera.org/" target="_blank">Michele Svanera</a></span>
+			</center>
+		  </td>
+	<td align=center width=150px>
+			<center>
+				<span style="font-size:18px"><a href="https://muckli.psy.gla.ac.uk/index.php/people/postdocs/andrew-morgan" target="_blank">Andrew T. Morgan</a></span>
+			</center>
+		  </td>
+	<td align=center width=150px>
+			<center>
+				<span style="font-size:18px"><a href="https://muckli.psy.gla.ac.uk/index.php/people/postdocs/lucy-s-petro" target="_blank">Lucy S. Petro</a></span>
+			</center>
+		  </td>
+	<td align=center width=150px>
+			<center>
+				<span style="font-size:18px"><a href="http://muckli.psy.gla.ac.uk/" target="_blank">Lars Muckli</a></span>
+			</center>
+		  </td>
+	</table><br>	 
+      <span style="font-size:15px">Institute of Neuroscience and Psychology, University of Glasgow, UK</span><br>
+</header>	   
+	  
+	<table align=center width=1000px>
+	<tr>
+	<td align=center width=300px>
+		<center>
+		<kbd>
+			<a href="https://github.com/rockNroll87q/self-supervised_inpainting" target="_blank"><img class="" src = "./misc/code_2.png" height="70px"></img></href></a><br>
+		</kbd>
+		</center>
+	  </td>
+	<td align=center width=300px>
+		<center>
+		<kbd>
+			<a href="https://doi.org/10.1101/2020.03.24.005132" target="_blank"><img class="" src = "./misc/paper3.png" height="75px"></img></href></a><br>
+		</kbd>
+		</center>
+	  </td>
+	<td align=center width=300px>
+		<center>
+		<kbd>
+			<a href="https://search.kg.ebrains.eu/instances/Dataset/c2df7995-f156-4953-bed1-fb4a003b364e" target="_blank"><img class="" src = "./misc/data.png" height="75px"></img></href></a><br>
+		</kbd>
+		</center>
+	  </td>
+
+	  
+	  
+	  
+	<hr>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+      </footer>
+    </main>
+  </body>
+</html>
