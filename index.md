@@ -48,8 +48,6 @@ Grey horizontal shaded region indicates the upper and lower bounds of the noise 
 <hr>
 # Network
 
-## Model
-
 Our self-supervised image-to-image model is trained to reconstruct the occluded image section (always the lower-right quadrant); it is a fully-convolutional neural network, with an encoder/decoder architecture and with skip connections. Details on layer activation dimensions are shown in Figure below. Every layer implements the same components: a 2-D convolution with a 3 × 3 filter and stride= 2 (that downsamples the activations, no pooling used), batch normalisation, and a rectified linear unit (ReLu) function for encoder and a leaky ReLu for decoder.
 
 <p align="center">
