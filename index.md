@@ -17,7 +17,7 @@ Challenging an AI model to learn natural image representations via self-supervis
 
 
 <p align="center">
-<img src="./misc/general_idea_4.pdf" width="90%" />  
+<img src="./misc/general_idea_4.png" width="90%" />  
 </p>
 
 <hr>
@@ -42,7 +42,7 @@ Lines below bars show when the encoder and decoder populations difference is sig
 Grey horizontal shaded region indicates the upper and lower bounds of the noise ceiling i.e., the maximum correlation possible within this dataset.
 
 <p align="center">
-<img src="./misc/All_Layers_combined_channels=1024_9.pdf" width="80%" />  
+<img src="./misc/All_Layers_combined_channels=1024_9.png" width="80%" />  
 </p>
 
 <hr>
@@ -53,11 +53,11 @@ Grey horizontal shaded region indicates the upper and lower bounds of the noise 
 Our self-supervised image-to-image model is trained to reconstruct the occluded image section (always the lower-right quadrant); it is a fully-convolutional neural network, with an encoder/decoder architecture and with skip connections. Details on layer activation dimensions are shown in Figure below. Every layer implements the same components: a 2-D convolution with a 3 × 3 filter and stride= 2 (that downsamples the activations, no pooling used), batch normalisation, and a rectified linear unit (ReLu) function for encoder and a leaky ReLu for decoder.
 
 <p align="center">
-<img src="./misc/full_architecture_compose_2.pdf" width="80%" />  
+<img src="./misc/full_architecture_compose_2.png" width="80%" />  
 </p>
 
 <p align="center">
-<img src="./misc/net_model_2.pdf" width="70%" />  
+<img src="./misc/net_model_2.png" width="70%" />  
 </p>
 
 Model architecture with layer dimensions. Every layer implements: convolution, batch normalisation, and activation function (leaky relu for encoder and relu for decoder).
@@ -67,7 +67,7 @@ Model architecture with layer dimensions. Every layer implements: convolution, b
 Training and testing procedures of the model. Deliberately inspired by Fig.2 of [Isola et al., 2017].
 
 <p align="center">
-<img src="./misc/training_procedures.pdf" width="90%" />  
+<img src="./misc/training_procedures.png" width="90%" />  
 </p>
 
 ## Visual results
@@ -84,7 +84,7 @@ Model results with the input to the network (occluded images), the original imag
 Image patches obtained for the encoder stream of our network: for every layer of the encoder, two channels are displayed.
 
 <p align="center">
-<img src="./misc/activation_collage.pdf" width="80%" />  
+<img src="./misc/activation_collage.png" width="80%" />  
 </p>
 
 <hr>
