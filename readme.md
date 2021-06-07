@@ -4,6 +4,7 @@ Description of the code used in the paper:
 
 > Svanera, M., Morgan, A. T., Petro, L. S., & Muckli, L. (2020). A Self-Supervised Deep Neural Network for Image Completion Resembles Early Visual Cortex fMRI Activity Patterns for Occluded Scenes. *bioRxiv.* ([link](https://www.biorxiv.org/content/10.1101/2020.03.24.005132v2.abstract))
 
+Visit the [project website](https://rocknroll87q.github.io/self-supervised_inpainting/) for more.
 
 ### Encoder/decoder detail
 
