@@ -2,7 +2,7 @@
 
 Description of the code used in the paper: 
 
-> Svanera, M., Morgan, A. T., Petro, L. S., & Muckli, L. (2020). A Self-Supervised Deep Neural Network for Image Completion Resembles Early Visual Cortex fMRI Activity Patterns for Occluded Scenes. *bioRxiv.* ([link](https://www.biorxiv.org/content/10.1101/2020.03.24.005132v2.abstract))
+> Svanera, M., Morgan, A. T., Petro, L. S., & Muckli, L. (2021). A self-supervised deep neural network for image completion resembles early visual cortex fMRI activity patterns for occluded scenes. *Journal of Vision*, 21(7), 5-5. ([link](https://jov.arvojournals.org/article.aspx?articleid=2776469))
 
 Visit the [project website](https://rocknroll87q.github.io/self-supervised_inpainting/) for more.
 
@@ -105,12 +105,18 @@ year = {2017}
 ```
 
 ```
-@article {Svanera2020.03.24.005132,
-	author = {Svanera, Michele and Morgan, Andrew T. and Petro, Lucy S. and Muckli, Lars},
-	title = {A Self-Supervised Deep Neural Network for Image Completion Resembles Early Visual Cortex fMRI Activity Patterns for Occluded Scenes},
-	year = {2020},
-	doi = {10.1101/2020.03.24.005132},
-	URL = {https://www.biorxiv.org/content/early/2020/12/13/2020.03.24.005132},
-	journal = {bioRxiv}
+@article{svanera2021,
+    author = {Svanera, Michele and Morgan, Andrew T. and Petro, Lucy S. and Muckli, Lars},
+    title = "{A self-supervised deep neural network for image completion resembles early visual cortex fMRI activity patterns for occluded scenes}",
+    journal = {Journal of Vision},
+    volume = {21},
+    number = {7},
+    pages = {5-5},
+    year = {2021},
+    month = {07},
+    issn = {1534-7362},
+    doi = {10.1167/jov.21.7.5},
+    url = {https://doi.org/10.1167/jov.21.7.5},
+    eprint = {https://arvojournals.org/arvo/content\_public/journal/jov/938547/i1534-7362-21-7-5\_1626237272.06066.pdf},
 }
 ```
